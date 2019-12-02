@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "949620940016",
+    "firebase_url": "https://aulaandroid-667ea.firebaseio.com",
+    "project_id": "aulaandroid-667ea",
+    "storage_bucket": "aulaandroid-667ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949620940016:android:f31b09fce3596f02df7635",
+        "android_client_info": {
+          "package_name": "br.ifsc.edu.firebasemateus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949620940016-dhvgph4i46a3bh4s3j2vj8ko0rsgltvb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.ifsc.edu.firebasemateus",
+            "certificate_hash": "bec76724069a30dd491ec36d7ee0be808b79c941"
+          }
+        },
+        {
+          "client_id": "949620940016-07ltpvhmbdkfisi31gbevefvj4t6divi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE3_MNSVLRRl2Jfn8yR8XPiz1MMtV_-Xk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949620940016-07ltpvhmbdkfisi31gbevefvj4t6divi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
