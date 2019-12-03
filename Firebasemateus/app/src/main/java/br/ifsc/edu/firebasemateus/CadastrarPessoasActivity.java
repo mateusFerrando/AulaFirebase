@@ -35,11 +35,11 @@ public class CadastrarPessoasActivity extends AppCompatActivity {
 
     public void cadastrarPessoa(View view){
         Pessoa pessoa = new Pessoa(edNome.getText().toString(),edCpf.getText().toString(),edSexo.getText().toString());
-        mRef.child("Pessoas").push().setValue(pessoa).addOnCompleteListener(CadastrarPessoasActivity.this, new OnCompleteListener<Void>() {
+        mRef.push().setValue(pessoa).addOnCompleteListener(CadastrarPessoasActivity.this, new OnCompleteListener<Void>() {
             @Override
             public void onComplete(@NonNull Task<Void> task) {
                 if (task.isSuccessful()) {
-                    Toast.makeText(getApplicationContext(), "Cadastradp com Sucesso", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), "Cadastrado com Sucesso", Toast.LENGTH_LONG).show();
                     Intent intent = new Intent(getApplicationContext(), PrincipalActivity.class);
                     startActivity(intent);
                 } else {

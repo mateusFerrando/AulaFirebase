@@ -40,18 +40,18 @@ public class MainActivity extends AppCompatActivity {
         databaseReference = firebaseDatabase.getReference();
 
 
-        databaseReference.child("Pessoas").addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                Pessoa p = dataSnapshot.getValue(Pessoa.class);
-                Log.d("DatabasePessoa", p.nome);
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
-
-            }
-        });
+//        databaseReference.child("Pessoas").addValueEventListener(new ValueEventListener() {
+//            @Override
+//            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+//                Pessoa p = dataSnapshot.getValue(Pessoa.class);
+//                Log.d("DatabasePessoa", p.nome);
+//            }
+//
+//            @Override
+//            public void onCancelled(@NonNull DatabaseError databaseError) {
+//
+//            }
+//        });
 
 
     }

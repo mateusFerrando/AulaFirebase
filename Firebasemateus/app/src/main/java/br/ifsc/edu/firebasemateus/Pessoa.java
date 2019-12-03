@@ -2,7 +2,7 @@ package br.ifsc.edu.firebasemateus;
 
 public class Pessoa {
 
-    int id;
+    String id;
     String nome;
     String cpf;
     String sexo;
@@ -13,8 +13,16 @@ public class Pessoa {
         this.sexo = sexo;
     }
 
-    public Pessoa(){
+    public Pessoa() {
 
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getNome() {
